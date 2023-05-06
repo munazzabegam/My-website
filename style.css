@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    scroll-behavior: smooth;
+}
+
+.header{
+    background: #00000080;
+    padding: 26px;
+    position: absolute;
+    width: 100vw;
+    color: #fbfcff;
+}
+
+body{
+    background-image: url(henna.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    margin-top: 40px;
+
+
+}
+
+.navbar ul li{
+    position: relative;
+    display: inline-block;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fbfcff;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 10px 25px;
+    block-size: 2px;
+    font-weight: 5000px;
+}
+
+.navbar ul li a:hover{
+    color: #fae5a4;
+}
+
+.footer{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #fae5a4;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+.foot{
+    padding-bottom: 2px;
+    color: #09338f;
+}
+
+.footer a i{
+    padding: 12px;
+    color: #09338f;
+}
+
+.footer a i:hover{
+    color: #f03a3a;
+}
