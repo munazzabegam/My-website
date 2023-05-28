@@ -47,7 +47,7 @@ nav .heading{
     flex: 1;
     color: #fff;
     margin-left: 50px;
-    font-size: 28px;
+    font-size: 22px;
     
 }
 
@@ -75,18 +75,29 @@ nav ul li a:hover{
 }
 
 nav .menu{
-    font-size: 2.5cm;
+    font-size: 2.0cm;
     display: none;
     position: absolute;
 }
 
+section{
+    min-height: 100vh;
+    width: 100vw;
+    position: relative;
+
+}
+
 /* home section */
+
+.home-section {
+    height: 150vh;
+}
 
 .home h1{
     position: absolute;
     left: 6%;
-    top: 40%;
-    font-size: 65px;
+    top: 20%;
+    font-size: 45px;
     color: #4e0105;
   }
 
@@ -96,19 +107,20 @@ nav .menu{
 
   .home a {
     position: absolute;
-    left: 14%;
-    top: 52%;
+    left: 12%;
+    top: 30%;
     padding: 15px 30px;
     background-color: #3a0707;
     color: #f5edee;
     border-radius: 12px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
     text-decoration: none;
+    
   }
 
   .home a:hover{
-    color: #4e0105;
-    background-color: #fff;
+    color: #030303;
+    background-color: burlywood;
   }
 
   .image-container .image1 {
@@ -122,18 +134,18 @@ nav .menu{
   }
 
   .image-container .image1 img {
-    width: 300px;
-    margin: 10px;
+    width: 280px;
+    margin: 8px;
     border-radius: 5px;
     border: 1px solid #ccc;
   }
 
   .image-container .image3 img {
     position: absolute;
-    width: 300px;
-    margin: 10px;
+    width: 280px;
+    margin: 8px;
     right: 28%;
-    top: 28%;
+    top: 18%;
     border-radius: 5px;
     border: 1px solid #ccc;
   }
@@ -146,19 +158,18 @@ nav .menu{
 }
 
 
-section{
-    min-height: 100vh;
-    width: 100vw;
-    position: relative;
-
-}
-
 /* about me section */
+
+.about-section {
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+}
 
 
 .about {
-    width: 100vw;
-    height: 120vh;
+    width: 90vw;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -193,6 +204,8 @@ section{
 
 /* contact section */
 
+
+
 .contact {
     background-color: #fff;
     width: 100%;
@@ -200,8 +213,8 @@ section{
 }
 
 .contact h2{
-    /* background-color: #080707;
-    color: #fff; */
+    background-color: #080707;
+    color: #fff;
     text-align: center;
     padding: 20px;
 }
@@ -209,15 +222,15 @@ section{
 form {
     display: flex;
     flex-direction: column;
-    padding: 100px;
+    /* padding: 100px; */
     padding: 20px 100px;
-    margin: 10px 500px;
+    margin: 0px 200px;
   }
 
   label {
     font-weight: bold;
     margin-top: 20px;
-    padding: 20px 100px;
+    padding: 20px 0px;
     margin: 0px 0px;
   }
   
@@ -227,7 +240,7 @@ form {
   
   input,
   textarea {
-    padding: 10px;
+    padding: 20px;
     margin-bottom: 20px;
     border-radius: 5px;
     border: none;
@@ -235,8 +248,8 @@ form {
   }
   
   button {
-    padding: 10px;
-    margin: 0px 60px;
+    padding: 10px 200px;
+    margin: 0px 0px;
     background-color: #333;
     color: #fff;
     border: none;
@@ -245,7 +258,7 @@ form {
   }
   
   button:hover {
-    background-color: #fff;
+    background-color: burlywood;
     color: #333;
   }
   
@@ -341,9 +354,6 @@ form {
     margin-top: 40px;
 }
 
-/* .footer-bottom a {
-    
-} */
 
 .footer-bottom p {
     margin: 0;
